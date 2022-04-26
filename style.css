@@ -1,0 +1,38 @@
+/*font-family: 'Tangerine', cursive;*/
+
+body
+{
+    width: 100%;
+}
+
+.titreContact
+{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+h1
+{
+    font-family: 'Tangerine', cursive;
+    font-size: 100px;
+    color: #c40991;
+    border-bottom: #c40991 solid 2px;
+}
+
+h2
+{
+    color: #c40991;
+    background-color: black;
+}
+.titreContact
+{
+    font-size: 30px;
+    color: white;
+}
+
+
+main
+{
+    background-color: black;
+}
