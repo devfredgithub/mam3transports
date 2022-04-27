@@ -74,12 +74,12 @@ p
 
 footer
 {
-    height: 100px;
+    height: 150px;
     color: black;
     background-color: #c40991;
     display: flex;
     justify-content: center;
-    font-size: 30px;
+    font-size: 20px;
     margin-top: 30px;
 }
 
