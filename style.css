@@ -48,11 +48,6 @@ a
     color: #c40991;
 }
 
-.logoColis
-{
-    width: 300px;
-}
-
 
 main
 {
@@ -106,6 +101,11 @@ footer
     {
         visibility: visible;
     }
+
+    .logoColis
+{
+    width: 300px;
+}
 
 
 
