@@ -17,11 +17,6 @@ body
     color: white;
 }
 
-.phone
-{
-    color: #c40991;
-}
-
 h1
 {
     font-family: 'Tangerine', cursive;
@@ -45,6 +40,11 @@ h2
    border: #c40991 1px solid;
    padding: 50px 20px;
    border-radius: 15px;
+}
+
+a
+{
+    color: #c40991;
 }
 
 .logoColis
