@@ -15,6 +15,7 @@ body
     border: 8px solid #c40991;
     font-size: 30px;
     color: white;
+    background-attachment: fixed;
 }
 
 h1
@@ -46,6 +47,11 @@ h2
 a
 {
     color: #c40991;
+}
+
+a.pied
+{
+    color: black;
 }
 
 
