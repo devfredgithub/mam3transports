@@ -49,6 +49,24 @@ a
     color: #c40991;
 }
 
+.imageTitre
+{
+    display: flex;
+    justify-content: center;
+}
+
+.camion
+{
+    display: flex;
+    justify-content: center;
+}
+
+.icon
+{
+    color:#c40991 ;
+}
+
+
 a.pied
 {
     color: black;
