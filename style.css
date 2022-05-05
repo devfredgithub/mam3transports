@@ -44,6 +44,45 @@ h2
    visibility: hidden;
 }
 
+/** pub**/
+.titreBlocPub
+{
+    display: flex;
+    justify-content: center;
+}
+
+.titrePub
+{
+    
+    color: #c40991;
+}
+
+.publicité
+{
+    border: #c40991 5px solid;
+}
+
+.bannPub
+{
+    border: #c40991 solid 3px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    margin: 5px;
+    height: 300px;
+    padding: 10px ;
+    background-color: #f8fa02;
+}
+
+.photoPub
+{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    
+}
+
+/**pub**/
+
 a
 {
     color: #c40991;
