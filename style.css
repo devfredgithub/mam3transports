@@ -7,7 +7,6 @@ body
 
 .titreContact
 {
-    display: flex;
     justify-content: center;
     background-color: black;
     border-radius: 15px;
@@ -41,7 +40,6 @@ h2
    border: #c40991 1px solid;
    padding: 50px 20px;
    border-radius: 15px;
-   visibility: hidden;
 }
 
 /** pub**/
@@ -168,7 +166,7 @@ footer
 
     .logoColis
 {
-    width: 300px;
+    width: 100%;
 }
 
 
