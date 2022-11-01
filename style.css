@@ -1,18 +1,17 @@
 /*font-family: 'Tangerine', cursive; font-family: 'Nunito', sans-serif;*/
 
 
-body
-{ max-width: 1800px; ;
+body {
+    max-width: 1800px;
+    ;
 }
-.contenu
-{
+
+.contenu {
     margin-left: 7%;
     margin-right: 7%;
-
 }
 
-.titreContact
-{
+.titreContact {
     justify-content: center;
     background-color: black;
     border-radius: 15px;
@@ -23,16 +22,14 @@ body
     background-attachment: fixed;
 }
 
-h1
-{
+h1 {
     font-family: 'Tangerine', cursive;
     font-size: 80px;
     color: #c40991;
     border-bottom: #c40991 solid 2px;
 }
 
-h2
-{
+h2 {
     color: #c40991;
     background-color: black;
     font-family: 'Nunito', sans-serif;
@@ -41,103 +38,90 @@ h2
     border: 1px solid #c40991;
     padding: 30px;
 }
-.contact
-{
-   border: #c40991 1px solid;
-   padding: 50px 20px;
-   border-radius: 15px;
+
+.contact {
+    border: #c40991 1px solid;
+    padding: 50px 20px;
+    border-radius: 15px;
 }
 
 /** pub**/
-.titreBlocPub
-{
+.titreBlocPub {
     display: flex;
     justify-content: center;
 }
 
-.titrePub
-{
-    
+.titrePub {
+
     color: #c40991;
 }
 
-.publicité
-{
+.publicité {
     border: #c40991 5px solid;
 }
 
-.bannPub
-{
+.bannPub {
     border: #c40991 solid 3px;
     background-color: aliceblue;
     border-radius: 15px;
     margin: 5px;
     height: 300px;
-    padding: 10px ;
+    padding: 10px;
     background-color: #f8fa02;
     font-size: large;
 }
 
-.photoPub
-{
+.photoPub {
     width: 100%;
     height: 180px;
     object-fit: cover;
-    
+
 }
 
 /**pub**/
 
-a
-{
+a {
     color: #c40991;
 }
 
-.imageTitre
-{
+.imageTitre {
     display: flex;
     justify-content: center;
 }
 
-.camion
-{
+.camion {
     display: flex;
     justify-content: center;
 }
 
-.icon
-{
-    color:#c40991 ;
+.icon {
+    color: #c40991;
 }
 
 
-a.pied
-{
+a.pied {
     color: black;
 }
 
 
-main
-{
+main {
     background-color: black;
     border-radius: 15px;
     padding: 15px 30px;
 }
-.resumer
-{
+
+.resumer {
     color: #c40991;
     font-family: 'Nunito', sans-serif;
-    font-size: 20px;  
+    font-size: 20px;
 }
 
-p
-{
+p {
     border: #c40991 2px solid;
     padding: 15px;
 }
 
-footer
-{
+footer {
     height: 150px;
     color: black;
     background-color: #c40991;
@@ -147,35 +131,44 @@ footer
     margin-top: 30px;
 }
 
-.pied
-{
-    padding:20px ;
+.pied {
+    padding: 20px;
 
 }
 
-@media only screen and (max-width:780px){
+@media only screen and (max-width:780px) {
 
-    h1
-    {
+    h1 {
         padding-left: 15px;
     }
 
-    .titreContact
-    {
+    .titreContact {
         display: inherit;
     }
 
-    .contact
-    {
+    .contact {
         visibility: visible;
     }
 
-    .logoColis
-{
-    width: 100%;
-}
+    .logoColis {
+        width: 100%;
+    }
+
+    @media only screen and (max-width:780px) {
+
+        .contenu {
+            margin: 0;
+        }
+
+        body
+        {
+            margin: 0;
+        }
 
 
 
-    
+
+    }
+
+
 }
